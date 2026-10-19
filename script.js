@@ -13,7 +13,7 @@ const products = [
     price: 9999,
     category: "pro",
     badge: "LINHA PRO",
-    image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=700&q=85"
+    image: "images/Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large_2x.jpg"
   },
   {
     id: 2,
