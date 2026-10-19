@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Confira modelos de iPhone, consulte disponibilidade e fale com nossa equipe pelo WhatsApp.">
+  <title>iTech Store | Catálogo de iPhones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="iTech Store início">
+      <span class="brand-mark">●</span>
+      <span><strong>iTech Store</strong><small>Apple para você</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#inicio">Início</a>
+      <a href="#catalogo">iPhones</a>
+      <a href="#vantagens">Por que comprar</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="button button-green header-cta" id="headerWhatsApp" href="#" target="_blank" rel="noopener">◉ Fale no WhatsApp</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">TECNOLOGIA • ESTILO • CONFIANÇA</p>
+        <h1>Seu próximo<br><span>iPhone</span> está aqui.</h1>
+        <p class="hero-subtitle">Encontre o modelo ideal para você e consulte disponibilidade com nosso atendimento.</p>
+        <div class="hero-perks">
+          <span>✓ Atendimento personalizado</span>
+          <span>✓ Opções de pagamento</span>
+          <span>✓ Entrega a combinar</span>
+        </div>
+        <a class="button button-light" href="#catalogo">Ver modelos <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Ilustração decorativa de smartphones">
+        <div class="phone phone-back"><div class="camera c1"></div><div class="camera c2"></div><div class="camera c3"></div></div>
+        <div class="phone phone-front"><div class="screen-glow"></div><div class="dynamic-island"></div></div>
+        <div class="hero-orb"></div>
+      </div>
+    </section>
+
+    <section class="catalog section-wrap" id="catalogo">
+      <div class="section-heading">
+        <div><p class="eyebrow eyebrow-dark">NOSSO CATÁLOGO</p><h2>Modelos em destaque</h2><p class="muted">Consulte estoque, cores e condições pelo WhatsApp.</p></div>
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar modelo..." aria-label="Buscar modelo"></label>
+      </div>
+      <div class="filters" id="filters" aria-label="Filtrar produtos">
+        <button class="filter active" data-filter="todos">Todos</button>
+        <button class="filter" data-filter="pro">Linha Pro</button>
+        <button class="filter" data-filter="normal">Linha iPhone</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="catalog-note">Os modelos, preços e imagens deste catálogo são demonstrativos. Confirme disponibilidade, procedência, garantia e valor final antes de comprar.</p>
+    </section>
+
+    <section class="benefits" id="vantagens">
+      <div class="benefit"><span class="benefit-icon">✓</span><div><strong>Compra com transparência</strong><p>Informações claras sobre cada aparelho.</p></div></div>
+      <div class="benefit"><span class="benefit-icon">↗</span><div><strong>Atendimento direto</strong><p>Tire dúvidas antes de fechar o pedido.</p></div></div>
+      <div class="benefit"><span class="benefit-icon">▣</span><div><strong>Pagamento combinado</strong><p>Consulte as opções disponíveis.</p></div></div>
+      <div class="benefit"><span class="benefit-icon">⌂</span><div><strong>Entrega a combinar</strong><p>Consulte regiões e prazos.</p></div></div>
+    </section>
+
+    <section class="contact-banner section-wrap" id="contato">
+      <div><p class="eyebrow">PRECISA DE AJUDA?</p><h2>Vamos encontrar seu iPhone.</h2><p>Chame nossa equipe e consulte o modelo que você procura.</p></div>
+      <a class="button button-green" id="footerWhatsApp" href="#" target="_blank" rel="noopener">◉ Falar pelo WhatsApp</a>
+    </section>
+  </main>
+
+  <footer class="footer"><span>© <span id="year"></span> iTech Store</span><span>Catálogo demonstrativo • Personalize os dados antes de publicar</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
