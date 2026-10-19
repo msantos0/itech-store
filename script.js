@@ -33,7 +33,7 @@ const products = [
     price: 6499,
     category: "normal",
     badge: "DESTAQUE",
-    image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=700&q=85"
+    image: "images/iphone-16-finish-select-202409-6-1inch-pink.webp",
   },
   {
     id: 4,
