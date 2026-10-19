@@ -23,7 +23,7 @@ const products = [
     price: 8999,
     category: "pro",
     badge: "LINHA PRO",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/IPhone_16_Pro_(54251926676).jpg?width=700"
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f8/IPhone_16_Pro_%2854251926676%29.jpg"
   },
   {
     id: 3,
